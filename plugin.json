@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cloudflare-account",
+  "version": "1.0.0",
+  "description": "Portable Agent Plugin for managing a Cloudflare account through Cloudflare's official API MCP server.",
+  "author": {
+    "name": "Jesús David",
+    "url": "https://github.com/jesusdavidweb"
+  },
+  "repository": "https://github.com/jesusdavidweb/minimax-cloudflare-plugin",
+  "license": "MIT",
+  "keywords": [
+    "cloudflare",
+    "mcp",
+    "workers",
+    "dns",
+    "r2",
+    "d1",
+    "zero-trust"
+  ]
+}
