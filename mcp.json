@@ -6,12 +6,28 @@
       "command": "npx",
       "args": [
         "-y",
-        "mcp-remote@latest",
+        "mcp-remote@0.1.38",
         "https://mcp.cloudflare.com/mcp",
         "--transport",
         "http-only",
+        "--auth-timeout",
+        "180",
         "--static-oauth-client-metadata",
-        "{\"scope\":\"\"}"
+        "{\"scope\":\"user:read offline_access account:read\"}"
+      ],
+      "env": {
+        "MCP_REMOTE_CONFIG_DIR": "${PLUGIN_DATA}/cloudflare-api-auth"
+      }
+    },
+    "cloudflare-docs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.1.38",
+        "https://docs.mcp.cloudflare.com/mcp",
+        "--transport",
+        "http-only"
       ]
     }
   }
