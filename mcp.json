@@ -9,7 +9,9 @@
         "mcp-remote@latest",
         "https://mcp.cloudflare.com/mcp",
         "--transport",
-        "http-only"
+        "http-only",
+        "--static-oauth-client-metadata",
+        "{\"scope\":\"\"}"
       ]
     }
   }
