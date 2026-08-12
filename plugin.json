@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cloudflare-account",
-  "version": "1.0.0",
-  "description": "Portable Agent Plugin for managing a Cloudflare account through Cloudflare's official API MCP server.",
+  "version": "1.1.0",
+  "description": "Manage Cloudflare accounts through the official Cloudflare API MCP, with up-to-date Cloudflare documentation available as a second MCP server.",
   "author": {
     "name": "Jesús David",
     "url": "https://github.com/jesusdavidweb"
@@ -13,9 +13,14 @@
     "cloudflare",
     "mcp",
     "workers",
+    "pages",
     "dns",
     "r2",
     "d1",
-    "zero-trust"
+    "kv",
+    "durable-objects",
+    "zero-trust",
+    "access",
+    "observability"
   ]
 }
